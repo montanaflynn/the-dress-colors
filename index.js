@@ -17,6 +17,11 @@ function getColors(image) {
   .header("Accept", "application/json")
   .end(function (res) {
 
+    if (res.status === 403) {
+      console.log("Missing API Key!")
+      return
+    }
+
     fs.writeFile("./colors.json", JSON.stringify(res.body), function(err) {
         if(err) {
             console.log(err)
