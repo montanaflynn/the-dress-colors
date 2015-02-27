@@ -1,0 +1,28 @@
+{
+  "name": "dress-color-extractor",
+  "version": "1.0.0",
+  "description": "Get the actual colors of the dress that sparked an intense online debate",
+  "main": "index.js",
+  "dependencies": {
+    "unirest": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dress",
+    "color",
+    "extraction"
+  ],
+  "author": "Montana Flynn",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/montanaflynn/the-dress-colors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/montanaflynn/the-dress-colors/issues"
+  },
+  "homepage": "https://github.com/montanaflynn/the-dress-colors"
+}
